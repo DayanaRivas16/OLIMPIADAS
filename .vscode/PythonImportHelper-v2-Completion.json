@@ -1,0 +1,74 @@
+[
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Competencia_1",
+        "description": "Competencia_1",
+        "peekOfCode": "edad = int(input(\"Ingresa tu edad: \"))\nif edad >= 0 and edad <= 12:\n    print(\"Eres un Niño\")\nelif edad >= 13 and edad <= 17:\n    print(\"Eres un Adolescente\")\nelif edad >= 18 and edad <= 64:\n    print(\"Eres un Adulto\")\nelif edad >= 65:\n    print(\"Eres un Adulto Mayor\")\nelse:",
+        "detail": "Competencia_1",
+        "documentation": {}
+    },
+    {
+        "label": "soporte_tecnico",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "soporte_tecnico = [usuarios[0], usuarios[1]]\ndispositivos_moviles = [dispositivos[-2], dispositivos[-1]]\nsw1 = dispositivos_moviles[0] == \"Smartwatch\"\nsw2 = len(dispositivos_moviles) > 1 and dispositivos_moviles[1] == \"Smartwatch\"\nif sw1 or sw2:\n    tupla = (\"Smartwatch\", \"Disponible\")\nif soporte_tecnico[0] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nelif len(soporte_tecnico) > 1 and soporte_tecnico[1] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "dispositivos_moviles",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "dispositivos_moviles = [dispositivos[-2], dispositivos[-1]]\nsw1 = dispositivos_moviles[0] == \"Smartwatch\"\nsw2 = len(dispositivos_moviles) > 1 and dispositivos_moviles[1] == \"Smartwatch\"\nif sw1 or sw2:\n    tupla = (\"Smartwatch\", \"Disponible\")\nif soporte_tecnico[0] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nelif len(soporte_tecnico) > 1 and soporte_tecnico[1] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nif dispositivos[0] == \"Tablet\" or dispositivos[1] == \"Tablet\" or dispositivos[2] == \"Tablet\" or (len(dispositivos) > 3 and dispositivos[3] == \"Tablet\"):",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "sw1",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "sw1 = dispositivos_moviles[0] == \"Smartwatch\"\nsw2 = len(dispositivos_moviles) > 1 and dispositivos_moviles[1] == \"Smartwatch\"\nif sw1 or sw2:\n    tupla = (\"Smartwatch\", \"Disponible\")\nif soporte_tecnico[0] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nelif len(soporte_tecnico) > 1 and soporte_tecnico[1] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nif dispositivos[0] == \"Tablet\" or dispositivos[1] == \"Tablet\" or dispositivos[2] == \"Tablet\" or (len(dispositivos) > 3 and dispositivos[3] == \"Tablet\"):\n    registro_usuario = {",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "sw2",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "sw2 = len(dispositivos_moviles) > 1 and dispositivos_moviles[1] == \"Smartwatch\"\nif sw1 or sw2:\n    tupla = (\"Smartwatch\", \"Disponible\")\nif soporte_tecnico[0] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nelif len(soporte_tecnico) > 1 and soporte_tecnico[1] == \"Andrés\":\n    soporte_tecnico.append(\"Nivel Avanzado\")\nif dispositivos[0] == \"Tablet\" or dispositivos[1] == \"Tablet\" or dispositivos[2] == \"Tablet\" or (len(dispositivos) > 3 and dispositivos[3] == \"Tablet\"):\n    registro_usuario = {\n        \"estado\": \"Activo\",",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "registro_usuario_creado",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "registro_usuario_creado = False\nif dispositivos[0] == \"Tablet\" or dispositivos[1] == \"Tablet\" or dispositivos[2] == \"Tablet\" or (len(dispositivos) > 3 and dispositivos[3] == \"Tablet\"):\n    registro_usuario_creado = True\nif registro_usuario_creado == True:\n    registro_usuario[\"último_ingreso\"] = \"18/06/2025\"\nimpresora_esta = False\nif dispositivos[0] == \"Impresora\":\n    impresora_esta = True\nelif dispositivos[1] == \"Impresora\":\n    impresora_esta = True",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "impresora_esta",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "impresora_esta = False\nif dispositivos[0] == \"Impresora\":\n    impresora_esta = True\nelif dispositivos[1] == \"Impresora\":\n    impresora_esta = True\nelif dispositivos[2] == \"Impresora\":\n    impresora_esta = True\nelif len(dispositivos) > 3 and dispositivos[3] == \"Impresora\":\n    impresora_esta = True\nif impresora_esta == False:",
+        "detail": "Competencia_3",
+        "documentation": {}
+    },
+    {
+        "label": "luisa_esta",
+        "kind": 5,
+        "importPath": "Competencia_3",
+        "description": "Competencia_3",
+        "peekOfCode": "luisa_esta = False\nif usuarios[0] == \"Luisa\":\n    luisa_esta = True\nelif usuarios[1] == \"Luisa\":\n    luisa_esta = True\nelif usuarios[2] == \"Luisa\":\n    luisa_esta = True\nelif len(usuarios) > 3 and usuarios[3] == \"Luisa\":\n    luisa_esta = True\nif luisa_esta == False:",
+        "detail": "Competencia_3",
+        "documentation": {}
+    }
+]
